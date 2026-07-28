@@ -3,11 +3,13 @@ import './App.css'
 
 import "./AgnyaSite.css"
 import AgnyaImage from "./assets/image.jpg"
+import AgnyaButton from './components/AgnyaButton'
 
 function App() {
   const [count, setCount] = useState(0)
   const boyzInChat = 12
   const girlzInChat = 1337
+
 
   let people = 0
   function peopleInChat(boyz: number, girlz: number) {
@@ -23,7 +25,9 @@ function App() {
     return "hello, " + name
   }
 
-console.log(greeting("astra"))
+  console.log(greeting("astra"))
+
+  const buttons = ["my projects", "button", "button2", "button3"]
 
   return (
     <div className='container'>
@@ -39,7 +43,12 @@ console.log(greeting("astra"))
             HTML • CSS • JavaScript • React
         </span>
 
-        <button>My projects</button>
+        {/* <AgnyaButton text='My projects'/>
+        <AgnyaButton text='button'/>
+        <AgnyaButton text='button2'/> */}
+        {buttons.map((buttonText, i) =>
+          <AgnyaButton text={buttonText} key={buttonText+i}/>
+        )}
       </div>
 
       <footer>
