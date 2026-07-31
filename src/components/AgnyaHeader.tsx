@@ -1,0 +1,13 @@
+import './Header.css'
+import { HiAcademicCap } from "react-icons/hi";
+
+function AgnyaHeader () {
+    return (
+        <div className="headerContainer">
+            <HiAcademicCap/>
+            <h2 className="headerText">Learning By Myself</h2>
+        </div>
+    )
+}
+
+export default AgnyaHeader

@@ -4,56 +4,33 @@ import './App.css'
 import "./AgnyaSite.css"
 import AgnyaImage from "./assets/image.jpg"
 import AgnyaButton from './components/AgnyaButton'
+import AgnyaHeader from './components/AgnyaHeader'
+import AgnyaFooter from './components/AgnyaFooter'
 
 function App() {
   const [count, setCount] = useState(0)
-  const boyzInChat = 12
-  const girlzInChat = 1337
-
-
-  let people = 0
-  function peopleInChat(boyz: number, girlz: number) {
-    people = boyz + girlz
-    people = -1000
-    return boyz + girlz
-  }
-
-  const result = peopleInChat(boyzInChat, girlzInChat)
-  console.log("People in chat:", result, people)
-
-  function greeting(name: string) {
-    return "hello, " + name
-  }
-
-  console.log(greeting("astra"))
 
   const buttons = ["my projects", "button", "button2", "button3"]
 
   return (
     <div className='container'>
-      <header>
-        <h2>Learning By Myself</h2>
-      </header>
+      
+      <AgnyaHeader/>
 
       <div className="card">
         <img src={AgnyaImage}/>
         <h1>Agnya</h1>
         <p className="description">Using AI and other sources of information</p>
         <span className="skills">
-            HTML • CSS • JavaScript • React
+          HTML • CSS • JavaScript • React
         </span>
-
-        {/* <AgnyaButton text='My projects'/>
-        <AgnyaButton text='button'/>
-        <AgnyaButton text='button2'/> */}
         {buttons.map((buttonText, i) =>
           <AgnyaButton text={buttonText} key={buttonText+i}/>
         )}
       </div>
 
-      <footer>
-        Created by newbie developer
-      </footer>
+      <AgnyaFooter/>
+
     </div>
   )
 }
