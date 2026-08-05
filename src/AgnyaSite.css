@@ -10,23 +10,26 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(108, 190, 217);
+    background-color: rgba(244, 240, 232);
 }
 
 h1 {
     color:#ffebcd;
+    margin: 0px 0 -10px;
 
 }
 
 button {
-    background-color:rgb(159, 215, 246);
-    color:rgb(9, 112, 152);
+    background-color:rgba(28, 1, 1);
+    color:rgba(226, 220, 207);
     border: none;
-    padding: 10px 50px;
+    padding: 0px 20px;
     border-radius: 30px;
     cursor: pointer;
     transition: 0.2s;
     font-size: 15px;
+    height: 32px;
+    /* width: 100%; */
 }
 
 button:hover {
@@ -40,9 +43,9 @@ button:active {
     transform: scale(0.95);
 }
 
-.card {
+/* .card {
     background-color: rgb(114, 205, 247);
-    width: 300px;
+    width: 400px;
     padding: 40px;
     border-radius: 20px;
     text-align: center;
@@ -56,9 +59,9 @@ button:active {
     justify-content: space-between;
 
     animation: appear 1.3s ease;
-}
+} */
 
-.description {
+/* .description {
     color:rgb(238, 238, 228);
     font-weight: bold;
 
@@ -82,15 +85,18 @@ img {
     font-size: 16px;
     border:5px solid rgba(238, 238, 228, 0.588);
     margin-bottom: 10px;
-}
-
-/* .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 } */
 
-@keyframes appear {
+/* .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 20px;
+    justify-content: center;
+} */
+
+
+/* @keyframes appear {
     from {
         opacity: 0;
         transform: translateY(30px)
@@ -100,4 +106,4 @@ img {
         opacity: 1;
         transform: translateY(0);
     }
-}
+} */

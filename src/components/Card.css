@@ -1,0 +1,80 @@
+.card {
+    background-color: rgba(226, 220, 207);
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 3px rgba(9, 112, 152, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    border: 2px solid rgba(67, 130, 155, 0.304);
+    justify-content: space-between;
+
+    animation: appear 1.3s ease;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.description {
+    color:rgba(118, 97, 99);
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    border:5px solid rgb(238, 238, 228);
+    box-shadow: 0 5px 15px rgba(9, 112, 152, 0.4);
+}
+
+
+.skills {
+    color: rgb(238, 238, 228);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border:5px solid rgba(238, 238, 228, 0.588);
+    margin-bottom: 10px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color:rgba(28, 1, 1);
+    margin: 0px 0 -10px;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

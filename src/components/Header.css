@@ -3,13 +3,19 @@
     display: flex;
     flex-direction: row;
     background-color: rgba(159, 216, 246, 0.603);
+    height: 42px;
+    align-items: center;
+    gap: 8px;
 }
 
 .headerText {
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 20px;
-    font-size: 25px;
-    color:#ffebcd;
+    font-size: 16px;
+    color: rgba(118, 97, 99);
+}
+
+.icon {
+    height: 124px;
 }
