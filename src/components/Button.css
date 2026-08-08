@@ -1,0 +1,22 @@
+button {
+    background-color:rgba(28, 1, 1);
+    color:rgba(226, 220, 207);
+    border: none;
+    padding: 0px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 15px;
+    height: 32px;
+}
+
+button:hover {
+    background-color: rgba(118, 97, 99);
+    color: azure;
+    transform: scale(1.05);
+
+}
+
+button:active {
+    transform: scale(0.95);
+}

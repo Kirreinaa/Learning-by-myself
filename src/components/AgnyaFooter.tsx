@@ -1,4 +1,5 @@
 import './Footer.css'
+import { HiAcademicCap } from "react-icons/hi";
 
 type AgnyaFooterProps = {
     text: string
@@ -6,7 +7,15 @@ type AgnyaFooterProps = {
 
 function AgnyaFooter() {
     return (
-        <footer className='footerText'>Created by newbie developer</footer>
+        <div className='footerContainer'>
+            <div className='footerIcon'>
+                <HiAcademicCap size={32} color='#766163'/>
+            </div>
+
+            <div className='footerItemsContainer'>
+                <div className='footerText'>Created by newbie developer</div>
+            </div>
+        </div>
     )
 }
 

@@ -1,14 +1,12 @@
 import './Card.css'
 import AgnyaButton from "./AgnyaButton"
-import AgnyaImage from "../assets/image.jpg"
-import HtmlImage from "../assets/html.svg";
 
 type AgnyaCardProps = {
     name: string;
     description: string;
     skills: string;
     button: string;
-    image: string
+    image: string;
 }
 
 function AgnyaCard(props: AgnyaCardProps) {

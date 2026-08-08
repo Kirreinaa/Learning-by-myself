@@ -2,10 +2,12 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: rgba(159, 216, 246, 0.603);
+    background-color: rgb(230, 223, 212);
     height: 42px;
     align-items: center;
     gap: 8px;
+    border: 1px solid   rgb(184, 182, 179);
+    margin-bottom: 30px;
 }
 
 .headerText {
@@ -13,7 +15,7 @@
     flex-direction: column;
     align-items: start;
     font-size: 16px;
-    color: rgba(118, 97, 99);
+    color: rgba(28, 1, 1);
 }
 
 .icon {

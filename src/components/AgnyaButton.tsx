@@ -1,3 +1,5 @@
+import './Button.css'
+
 type AgnyaButtonProps = {
     text: string
 }

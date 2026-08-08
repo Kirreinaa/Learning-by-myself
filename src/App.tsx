@@ -17,12 +17,13 @@ function App() {
       <div className="cardsContainer">
         {cardsData.map((card) => (
           <AgnyaCard 
-            name={card.name}
-            description={card.description}
-            skills={card.skills}
-            button={card.button}
-            key={card.name}
-          />
+  name={card.name}
+  description={card.description}
+  skills={card.skills}
+  button={card.button}
+  image={card.image}
+  key={card.name}
+/>
         ))}
       </div>
 

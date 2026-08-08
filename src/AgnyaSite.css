@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(244, 240, 232);
+    background-color: rgba(243, 239, 230, 1);
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 
 }
 
-button {
+/* button {
     background-color:rgba(28, 1, 1);
     color:rgba(226, 220, 207);
     border: none;
@@ -29,7 +29,6 @@ button {
     transition: 0.2s;
     font-size: 15px;
     height: 32px;
-    /* width: 100%; */
 }
 
 button:hover {
@@ -41,7 +40,7 @@ button:hover {
 
 button:active {
     transform: scale(0.95);
-}
+} */
 
 /* .card {
     background-color: rgb(114, 205, 247);
