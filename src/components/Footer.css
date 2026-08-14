@@ -1,15 +1,8 @@
-.footerText {
-    padding: 50px;
-    /* background-color: black; */
-    font-size: 10px;
-}
-
 .footerContainer {
     width: 100%;
-    position: relative;
+    height: 133px;
     background-color: rgb(230, 223, 212);
-    height: 120px;
-    border: 1px solid   rgb(184, 182, 179);
+    border: 1px solid rgb(184, 182, 179);
     margin-top: 32px;
 }
 
@@ -17,15 +10,32 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
+
     height: 100%;
+    padding: 0 30px;
 }
 
 .footerIcon {
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    width: 32px;
-    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.footerTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.footerTitle {
+    margin: 0;
+    font-size: 18px;
+    color: rgba(28, 1, 1);
+}
+
+.footerDescription {
+    margin: 0;
+    font-size: 13px;
+    color: rgba(118, 97, 99);
+}

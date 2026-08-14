@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     background-color: rgb(230, 223, 212);
-    height: 42px;
+    height: 65px;
     align-items: center;
     gap: 8px;
     border: 1px solid   rgb(184, 182, 179);
@@ -20,4 +20,5 @@
 
 .icon {
     height: 124px;
+    background-color: blue;
 }
