@@ -34,7 +34,7 @@
     flex: 1;
 }
 
-img {
+.cardImage {
     width: 90px;
     height: 90px;
     border-radius: 50%;

@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 
-import { cardsData } from './components/cardsData'
-import "./AgnyaSite.css"
-import AgnyaHeader from './components/AgnyaHeader'
-import AgnyaFooter from './components/AgnyaFooter'
-import AgnyaCard from './components/AgnyaCard'
+import { cardsData } from './components/Card/cardsData'
+import "./components/AgnyaSite.css"
+import AgnyaHeader from './components/Header/AgnyaHeader'
+import AgnyaFooter from './components/Footer/AgnyaFooter'
+import AgnyaCard from './components/Card/AgnyaCard'
 
 function App() {
 
@@ -17,13 +17,13 @@ function App() {
       <div className="cardsContainer">
         {cardsData.map((card) => (
           <AgnyaCard 
-  name={card.name}
-  description={card.description}
-  skills={card.skills}
-  button={card.button}
-  image={card.image}
-  key={card.name}
-/>
+            name={card.name}
+            description={card.description}
+            skills={card.skills}
+            button={card.button}
+            image={card.image}
+            key={card.name}
+          />
         ))}
       </div>
 

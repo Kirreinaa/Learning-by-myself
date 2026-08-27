@@ -1,8 +1,8 @@
-import HtmlImage from "../assets/html.svg";
-import CssImage from "../assets/css.svg";
-import JsImage from "../assets/javascript.svg";
-import ReactImage from "../assets/react.svg";
-import ProfileImage from "../assets/aboutMe.svg";
+import HtmlImage from "../../assets/html.svg";
+import CssImage from "../../assets/css.svg";
+import JsImage from "../../assets/javascript.svg";
+import ReactImage from "../../assets/react.svg";
+import ProfileImage from "../../assets/aboutMe.svg";
 
 export const cardsData = [
   {

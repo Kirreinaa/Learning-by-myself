@@ -39,3 +39,16 @@
     font-size: 13px;
     color: rgba(118, 97, 99);
 }
+
+.footerLinks {
+    background-color: rgb(207, 177, 237);
+    width: 100%;
+    height: 33px;
+    display: flex;
+    
+}
+
+.linkIcon {
+    width: 32px;
+    height: 32px;
+}
