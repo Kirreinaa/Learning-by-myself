@@ -23,7 +23,7 @@ function AgnyaFooter() {
                 </div>
             </div>
 
-            <div className="footerItemsContainer">
+            <div className="footerLinks">
 
                 <a href='https://github.com/Kirreinaa'>
                     <div className="footerIcon">

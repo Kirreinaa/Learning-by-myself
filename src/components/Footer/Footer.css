@@ -1,19 +1,23 @@
 .footerContainer {
     width: 100%;
-    height: 133px;
+    height: 132px;
     background-color: rgb(230, 223, 212);
     border: 1px solid rgb(184, 182, 179);
     margin-top: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 
 .footerItemsContainer {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 12px;
-
-    height: 100%;
-    padding: 0 30px;
+    padding-top: 30px;
 }
 
 .footerIcon {
@@ -41,11 +45,18 @@
 }
 
 .footerLinks {
-    background-color: rgb(207, 177, 237);
-    width: 100%;
-    height: 33px;
     display: flex;
-    
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.footerLinks a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-size: 13px;
 }
 
 .linkIcon {
